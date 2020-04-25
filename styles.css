@@ -1,20 +1,44 @@
+* {
+	box-sizing: border-box;
+  }
+
+body {
+	display: flex;
+
+	margin: 0;
+	height: 99vh;
+}
+
+#containers {
+	display: flex;
+
+	position: relative;
+	padding: 0;
+	height: 50%;
+	width: 90%;
+	margin: 0 auto;
+
+}
 
 .container {
-	padding: 10px;
+	position: relative;
+	padding: 0;
 	border: 2px solid #F90;
-	height: 500px;
-	margin: 50px auto;
-	
+	height: 100%;
+	width: 30%;
+	margin: 0 auto 0;
+
   }
-  
+
+
   .draggable {
 	width: 140px;
 	height: 140px;
 	background: #F90;
 	border-radius: 10px;
-	margin: 0 10px 10px 0;
+	margin: 0;
 	float: left;
-	position:absolute ;
+	position: absolute ;
   }
   .draggable.is-pointer-down {
 	background: #09F;
