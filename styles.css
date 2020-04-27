@@ -15,7 +15,7 @@ body {
 
 	position: relative;
 	padding: 0;
-	height: 50%;
+	height: 45%;
 	width: 90%;
 	margin: 0 auto;
 	top: 5%;
@@ -27,7 +27,7 @@ body {
 	padding: 0;
 	height: 50%;
 	margin: 0 auto 0;
-	background-color: rgb(60, 160, 218);
+	background-color: rgb(218, 60, 179);
 
   }
 .full-height {
@@ -38,6 +38,7 @@ body {
 }
 
   #merge-box {
+	  top: 5%;
 	position: relative;
 	padding: 0;
 	height: 50%;
