@@ -37,7 +37,7 @@ for (let i = 0; i < 3; i++){
         for (let k = 0; k < 3; k++) {
           c[k][m[k]].animate({
             top: (contHeight * 1.5 - scale / 2) + "px",
-            left: ((windowWidth * 0.9 - scale) / 2) + "px"
+            left: (($("#containers").width() - scale) / 2) + "px"
           });
         }
       }
