@@ -27,13 +27,12 @@ body {
 	padding: 0;
 	height: 50%;
 	margin: 0 auto 0;
-	background-color: rgb(218, 60, 179);
+	background-color: transparent;
 
   }
 .full-height {
 	height: 89vh;
 	width: 30%;
-	background-color: white;
 
 }
 
@@ -44,7 +43,8 @@ body {
 	height: 50%;
 	width: 100%;
 	margin: 0 auto;
-	background-color: chartreuse;
+	background-image: url("glass.png");
+	background-size: 100%;
 	z-index: -1;
   }
 
@@ -54,6 +54,8 @@ body {
 	margin: 0;
 	float: left;
 	position: absolute ;
+	border-radius: 1000px;
+
 	z-index: 100;
   }
   .draggable.is-pointer-down {
@@ -62,3 +64,30 @@ body {
   }
   .draggable.is-dragging { opacity: 0.7; }
   
+
+  #f0 {
+	  left: 3%;
+	  top: 5%;
+	  height: 45%;
+	  width: 35%;
+	    position: absolute;
+	  z-index: -100;
+  }
+
+  #f1 {
+	left: 33%;
+	top: 5%;
+	height: 45%;
+	width: 35%;
+
+	position: absolute;
+	z-index: -100;
+}
+#f2 {
+	left: 63%;
+	top: 5%;
+	height: 45%;
+	width: 35%;
+	position: absolute;
+	z-index: -100;
+}
